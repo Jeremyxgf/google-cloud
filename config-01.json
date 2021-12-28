@@ -1,0 +1,22 @@
+{
+    "inbounds": [
+      {
+        "port": 47188, // 服务器监听端口
+        "protocol": "vmess",    // 主传入协议
+        "settings": {
+          "clients": [
+            {
+              "id": "d0c8fe15-0c7f-484b-b6b7-b393341519ff",  // 用户 ID，客户端与服务器必须相同
+              "alterId": 64
+            }
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "freedom",  // 主传出协议
+        "settings": {}
+      }
+    ]
+  }
